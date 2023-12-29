@@ -1,4 +1,4 @@
-![cv](https://imgur.com/1dddMTI)
+![cv](assets/img/CV.png)
     
 # License
 
