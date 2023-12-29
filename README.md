@@ -1,4 +1,4 @@
-![cv](assets/img/CV.png)
+![cv](assets/img/CV.pdf)
     
 # License
 

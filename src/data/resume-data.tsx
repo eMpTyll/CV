@@ -94,7 +94,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "Competitor",
       logo: JojoMobileLogo,
-      start: "2022 -",
+      start: "2022 - ",
       end: "2015",
       description:
         "I always strive to participate in as many CTF competitions as possible to gain experience and identify my own shortcomings. From there, I draw lessons to develop myself.",
