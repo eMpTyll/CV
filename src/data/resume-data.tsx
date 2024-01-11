@@ -70,7 +70,7 @@ export const RESUME_DATA = {
     {
       company: "ASEAN Student Contest on Information Security",
       link: "https://ascis.vnisa.org.vn/",
-      badges: ["Top 12"],
+      badges: [""],
       title: "TLU CyanWater",
       logo: ParabolLogo,
       start: "2023",
