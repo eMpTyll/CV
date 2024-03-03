@@ -123,7 +123,7 @@ export default function Page() {
                       </span>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
-                      {work.start} {/*-{work.end} */}
+                      {work.start} - {work.end}
                     </div>
                   </div>
 
@@ -158,6 +158,35 @@ export default function Page() {
             );
           })}
         </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">Certificate</h2>
+          {RESUME_DATA.certificate.map((certificate) => {
+            return (
+              <Card key={certificate.name}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="font-semibold leading-none">
+                      {certificate.name}
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {certificate.start} - {certificate.end}
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2">{certificate.link}</CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+
+
+
+
+
+
+
+        
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">

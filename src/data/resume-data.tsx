@@ -63,7 +63,15 @@ export const RESUME_DATA = {
       school: "Thuy Loi University",
       degree: "Bachelor's Degree in Cybersecurity",
       start: "2022",
-      end: "",
+      end: "PRESENT",
+    },
+  ],
+  certificate: [
+    {
+      name: "Google Cybersecurity Certificate",
+      link: "https://www.credly.com/badges/dfe3b663-9719-46bd-8086-d931d95f0ab2/public_url",
+      start: "2024",
+      end: "PRESENT",
     },
   ],
   work: [
@@ -74,8 +82,8 @@ export const RESUME_DATA = {
       title: "TLU CyanWater",
       logo: ParabolLogo,
       start: "2023",
-      description:
-        "",
+      end: "2023",
+      description: "I am a member of TLU CyanWater, a team from Thuy Loi University, that joined the ASEAN Student Contest on Information Security (ASCIS) in 2023. ASCIS is a Capture the Flag contest that challenges the information security skills of students from ASEAN universities."
     },
     {
       company: "CLB TAS - TLU Algorithm and Security",
@@ -84,7 +92,7 @@ export const RESUME_DATA = {
       title: "Specialized Committee",
       logo: ClevertechLogo,
       start: "2022",
-      end: "2021",
+      end: "PRESENT",
       description:
         "This is a group of members who focus on researching academic issues and guiding other members. In addition, the group also represents the club and the school in participating in CTF and coding competitions both domestically and internationally.",
     },
@@ -94,8 +102,8 @@ export const RESUME_DATA = {
       badges: [],
       title: "Competitor",
       logo: JojoMobileLogo,
-      start: "2022 - ",
-      end: "2015",
+      start: "2022",
+      end: "PRESENT",
       description:
         "I always strive to participate in as many CTF competitions as possible to gain experience and identify my own shortcomings. From there, I draw lessons to develop myself.",
     }/*,
