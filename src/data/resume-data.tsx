@@ -53,7 +53,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Transcript",
-        url: "https://drive.google.com/file/d/1gjAMSGTvzlYwYmLebmWfLXmsDkhXGX2h/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1Mkr67yWevqqNiwnhIFTxWkAfh0qbyNGx/view?usp=sharing",
         icon: TranscriptIcon,
       }
     ],
@@ -66,14 +66,28 @@ export const RESUME_DATA = {
       end: "PRESENT",
     },
   ],
+  // certificate: [
+  //   {
+  //     name: "Google Cybersecurity Certificate",
+  //     link: "https://www.credly.com/badges/dfe3b663-9719-46bd-8086-d931d95f0ab2/public_url",
+  //     start: "2024",
+  //     end: "PRESENT",
+  //   },
+  // ],
+
   certificate: [
     {
       name: "Google Cybersecurity Certificate",
       link: "https://www.credly.com/badges/dfe3b663-9719-46bd-8086-d931d95f0ab2/public_url",
+      badges: ["Coursera"],
+      title: "TLU CyanWater",
+      logo: ParabolLogo,
       start: "2024",
       end: "PRESENT",
-    },
+      description: "The Google Cybersecurity Certificate is a Coursera credential that certifies the completion of eight Google courses on cybersecurity fundamentals and skills. It demonstrates proficiency in Python, Linux, SQL, SIEM, and IDS, as well as knowledge of cybersecurity risks and mitigation strategies."
+    }
   ],
+
   work: [
     {
       company: "ASEAN Student Contest on Information Security",

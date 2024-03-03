@@ -159,7 +159,7 @@ export default function Page() {
           })}
         </Section>
 
-        <Section>
+        {/* <Section>
           <h2 className="text-xl font-bold">Certificate</h2>
           {RESUME_DATA.certificate.map((certificate) => {
             return (
@@ -178,8 +178,50 @@ export default function Page() {
               </Card>
             );
           })}
-        </Section>
+        </Section> */}
 
+
+
+        <Section>
+          <h2 className="text-xl font-bold">Experience</h2>
+          {RESUME_DATA.certificate.map((certificate) => {
+            return (
+              <Card key={certificate.name}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                      <a className="hover:underline" href={certificate.link}>
+                        {certificate.name}
+                      </a>
+
+                      <span className="inline-flex gap-x-1">
+                        {certificate.badges.map((badge) => (
+                          <Badge
+                            variant="secondary"
+                            className="align-middle text-xs"
+                            key={badge}
+                          >
+                            {badge}
+                          </Badge>
+                        ))}
+                      </span>
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {certificate.start} - {certificate.end}
+                    </div>
+                  </div>
+
+                  <h4 className="font-mono text-sm leading-none">
+                    {certificate.title}
+                  </h4>
+                </CardHeader>
+                <CardContent className="mt-2 text-xs">
+                  {certificate.description}
+                </CardContent>
+              </Card>
+            );
+          })}
+        </Section>
 
 
 
