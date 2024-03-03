@@ -141,6 +141,7 @@ export const RESUME_DATA = {
     "Python",
     "Linux",
     "SQL",
+    "Collaboration",
   ],
   projects: [
     {

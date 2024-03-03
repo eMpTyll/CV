@@ -183,7 +183,7 @@ export default function Page() {
 
 
         <Section>
-          <h2 className="text-xl font-bold">Experience</h2>
+          <h2 className="text-xl font-bold">Certificate</h2>
           {RESUME_DATA.certificate.map((certificate) => {
             return (
               <Card key={certificate.name}>
