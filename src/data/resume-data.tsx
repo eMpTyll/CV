@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       name: "Google Cybersecurity Certificate",
       link: "https://www.credly.com/badges/dfe3b663-9719-46bd-8086-d931d95f0ab2/public_url",
       badges: ["Coursera"],
-      title: "TLU CyanWater",
+      title: "credential",
       logo: ParabolLogo,
       start: "2024",
       end: "PRESENT",
@@ -137,7 +137,10 @@ export const RESUME_DATA = {
     "Comprehend English docs",
     "Research",
     "Basic of OSI model",
-    "Basic of OSI protocols"
+    "Basic of OSI protocols",
+    "Python",
+    "Linux",
+    "SQL",
   ],
   projects: [
     {
